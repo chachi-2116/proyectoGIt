@@ -13,10 +13,10 @@ public class CalculadoraTiempoViaje {
             double velocidad = scanner.nextDouble();
 
             
-            double tiempo = distancia / velocidad;
+            double duracion = distancia / velocidad;
 
             
-            System.out.println("El tiempo necesario para llegar de una ciudad a otra es: " + tiempo + " horas");
+            System.out.println("El tiempo necesario para llegar de una ciudad a otra es: " + duracion + " horas");
         }
     }
 }
